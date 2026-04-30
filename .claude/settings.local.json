@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh repo *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(flutter devices *)",
+      "Bash(flutter run *)",
+      "Bash(flutter emulators *)",
+      "Bash(flutter build *)",
+      "Bash(python -m http.server 8080)",
+      "Bash(curl -s http://localhost:8080)",
+      "Bash(flutter clean *)",
+      "Bash(flutter pub *)",
+      "Bash(pkill -f \"python -m http.server\")",
+      "Bash(netstat -ano)",
+      "Bash(findstr :8080)",
+      "Bash(cd quit_smoking_app)",
+      "Bash(flutter --version)",
+      "Bash(flutter analyze *)"
+    ]
+  }
+}
